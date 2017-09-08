@@ -266,7 +266,7 @@ header{
   font-weight: bold;
   margin-bottom: 40px;
 }
-.section-arenas img{
+.section-arenas img, .section-duelos img{
   display: block;
   text-align: center;
   margin-left: auto;
@@ -614,4 +614,442 @@ footer .social-icons img{
 .ctn-sld{
   min-height: 60px;
   cursor: pointer;
+}
+
+
+
+
+
+/*Internas ==============================================*/
+
+
+
+
+.section-titulos{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #F1F0F0;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.duelos-bg img, .desafios-bg img, .planos-bg img, .noticias-bg img{
+  width: 30%;
+}
+.section-titulos.teste-conhecimentos{
+  background-image: url(../img/bg-teste-conhecimento-02.svg);
+}
+.section-titulos.duelos-bg{
+  background-image: url(../img/bg-duelos-03.svg);
+}
+.section-titulos.desafios-bg{
+  background-image: url(../img/bg-desafios-02.svg);
+}
+.section-titulos.planos-bg{
+  background-image: url(../img/bg-planos-02.svg);
+}
+.section-titulos.noticias-bg{
+  background-image: url(../img/bg-noticias-02.svg);
+}
+.section-titulos img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.section-conhecimento-disciplina{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section-conhecimento-disciplina h2{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.section-conhecimento-disciplina p.text{
+  font-size: 18px;
+  color: #09202C;
+  line-height: 24px;
+  width: 70%;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+.section-conhecimento-disciplina h6.h6{
+  color: red;
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: bold;
+  width: 70%;
+  font-style: italic;
+}
+
+.section-conhecimento-disciplina  .container-materia{
+  background-color:#071F2B;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: #FFF;
+  font-family: 'VCR OSD Mono';
+  text-transform: uppercase;
+}
+.section-conhecimento-disciplina  .container-materia h3{
+  font-size: 21px;
+  padding-bottom: 5px;
+}
+.section-conhecimento-disciplina  .container-materia h6{
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.section-conhecimento-disciplina  .container-materia p.coin{
+  font-size: 17px;
+}
+
+.section-conhecimento-disciplina .container-materia p.coin{
+  font-size: 14px;
+  vertical-align: middle;
+}
+.section-conhecimento-disciplina .container-materia p.coin span{
+  vertical-align: middle;
+  display: inline-block;
+}
+.section-conhecimento-disciplina .container-materia p.coin img{
+  vertical-align: middle;
+}
+
+.section-conhecimento-disciplina  .container-materia p.text-rv, .section-conhecimento-disciplina  .container-materia p.text-hora{
+  font-size: 11px;
+  text-align: center;
+}
+.section-conhecimento-disciplina  .container-materia a.button-jogar{
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: #FFF;
+  background-color: red;
+  font-size: 11px;
+  margin-top: 8px;
+}
+.section-conhecimento-disciplina  .container-pontuadores img{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 7%;
+}
+.section-conhecimento-disciplina  .container-pontuadores h4{
+  color: #09202C;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.section-dicas{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.section-dicas img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.section-dicas h3{
+  font-weight: bold;
+  padding-bottom: 15px;
+  color: #09202C;
+  font-size: 18px;
+  font-style: italic;
+
+}
+.section-dicas p{
+  padding-bottom: 15px;
+  color: #09202C;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 20px;
+}
+.section-dicas a{
+  background-color: red;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #FFF;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.bg-cinza{
+  background-color: #F1F0F0;
+}
+
+
+.section-duelos .container-arena .container-dados{
+  background-color: #071F2B;
+  padding: 10px;
+}
+.section-duelos .container-arena .container-dados h3{
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+.section-duelos .container-arena .container-dados h6{
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.section-duelos .container-arena .container-dados p.text-rv, .section-duelos .container-arena .container-dados p.text-hora{
+  font-size: 11px;
+}
+.section-duelos .container-arena .container-dados a.button-entrar{
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: #FFF;
+  background-color: red;
+  font-size: 11px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+.section-duelos .container-arena .container-dados a.button-entrar:hover{
+  background-color: #fff;
+  color: red;
+}
+.section-duelos .container-arena .container-dados p.coin{
+  text-align: right;
+}
+.section-duelos .container-arena .container-dados p.coin img{
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+.section-duelos .container-arena .container-dados p.coin span{
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+.section-duelos .ico-user{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+}
+.section-pesquisas{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section-pesquisas a{
+  color: #09202C;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 10px;
+}
+.section-pesquisas button{
+  width: 100%;
+  color: #FFF;
+  background-color: red;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.section-duelos{
+  padding-top: 50px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #09202C;
+}
+.section-desafios{
+  padding-top: 40px;
+  border-bottom: 1px solid #09202C;
+}
+.section-desafios .container-materia{
+  background-color:#071F2B;
+  padding: 15px;
+  margin-bottom: 30px;
+  color: #FFF;
+  font-family: 'VCR OSD Mono';
+  text-transform: uppercase;
+  z-index: 999;
+  position: relative;
+}
+.section-desafios .container-materia h3{
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+.section-desafios .container-materia h6{
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.section-desafios .container-materia p.coin{
+  font-size: 14px;
+  vertical-align: middle;
+}
+.section-desafios .container-materia p.coin span{
+  vertical-align: middle;
+  display: inline-block;
+}
+.section-desafios .container-materia p.coin img{
+  vertical-align: middle;
+}
+.section-desafios .container-materia p.text-rv, .section-desafios .container-materia p.text-hora{
+  font-size: 11px;
+  text-align: center;
+}
+.section-desafios .container-materia a.button-jogar{
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: #FFF;
+  background-color: red;
+  font-size: 11px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+.section-desafios .container-materia a.button-jogar:hover {
+  background-color: #FFF;
+  color: red;
+}
+.ih-vermais a{
+  display: block;
+  text-align: center;padding-bottom: 30px;
+  color: #224F71;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.section-planos{
+  padding-top: 80px;
+  padding-bottom: 60px;
+  text-align: center;
+  border-bottom: 1px solid #09202C;
+}
+.section-planos .ctn-plano{
+  text-align: center;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.section-planos .ctn-plano img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+  width: 25%;
+  margin-bottom: 15px;
+}
+.section-planos .ctn-plano h2{
+  font-weight: bold;
+  padding-bottom: 5px;
+  color: #09202C;
+  font-style: italic;
+  font-size: 20px;
+}
+.section-planos .ctn-plano h6{
+  padding-bottom: 30px;
+  color:red;
+  font-style: italic;
+  font-size: 20px;
+}
+.section-planos .ctn-plano p{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #c3c3c3;
+  font-size: 16px;
+  font-style: italic;
+}
+.section-planos .ctn-plano  a{
+  display: inline-block;
+  margin-top: 30px;
+  background-color: red;
+  color: #FFF;
+  border-radius: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.section-noticias{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #09202C;
+}
+.section-noticias .ctn-noticia{
+  background-color: #F1F0F0;
+  margin-bottom: 30px;
+}
+.section-noticias .ctn-noticia .ctn-titulo-noticia, .section-noticias .ctn-noticia .ctn-content-noticia{
+  padding: 20px;
+}
+
+.section-noticias .ctn-noticia .ctn-titulo-noticia h3{
+  font-size: 36px;
+  color: #FFF;
+}
+.section-noticias .ctn-noticia .ctn-titulo-noticia h4{
+  font-size: 24px;
+  color: #FFF;
+}
+.section-noticias .ctn-noticia .ctn-content-noticia h5{
+  font-weight: bold;
+  color: #09202C;
+  padding-bottom: 10px;
+}
+.section-noticias .ctn-noticia .ctn-content-noticia h6{
+  color: #09202C;
+  padding-bottom: 7px;
+}
+.section-noticias .ctn-noticia .ctn-content-noticia h6 span{
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.section-noticias .ctn-noticia .ctn-content-noticia img{
+  width: 70%;
+}
+.section-noticias .ctn-noticia .ctn-content-noticia a{
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.section-noticias .ctn-noticia .ctn-content-noticia a img{
+  width: 6%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.section-noticias .ctn-noticia.azul  .ctn-titulo-noticia{
+  background-color: #35A8E0;
+}
+.section-noticias .ctn-noticia.roxo  .ctn-titulo-noticia{
+  background-color: #662482;
+}
+.section-noticias .ctn-noticia.laranja  .ctn-titulo-noticia{
+  background-color: #F29100;
+}
+.section-noticias .ctn-noticia.verde  .ctn-titulo-noticia{
+  background-color: #39A935;
+}
+.section-noticias .ctn-noticia.vermelho  .ctn-titulo-noticia{
+  background-color: #E20613;
+}
+.section-noticias .ctn-noticia.cinza  .ctn-titulo-noticia{
+  background-color: #868686;
+}
+.section-noticias .ctn-noticia.azul a{
+  color: #35A8E0;
+}
+.section-noticias .ctn-noticia.roxo a{
+  color: #662482;
+}
+.section-noticias .ctn-noticia.laranja a{
+  color: #F29100;
+}
+.section-noticias .ctn-noticia.verde a{
+  color: #39A935;
+}
+.section-noticias .ctn-noticia.vermelho a{
+  color: #E20613;
+}
+.section-noticias .ctn-noticia.cinza a{
+  color: #868686;
 }
