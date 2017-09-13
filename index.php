@@ -31,6 +31,24 @@
 			if($_GET["url"] == "noticias"){
 				include("inc/noticias.inc.php");
 			}
+			if($_GET["url"] == "feedback"){
+				include("inc/feedback.inc.php");
+			}
+			if($_GET["url"] == "configuracoes"){
+				include("inc/configuracoes.inc.php");
+			}
+			if($_GET["url"] == "questoes"){
+				include("inc/questoes.inc.php");
+			}
+			if($_GET["url"] == "prova"){
+				include("inc/prova.inc.php");
+			}
+			if($_GET["url"] == "caderno"){
+				include("inc/caderno.inc.php");
+			}
+			if($_GET["url"] == "simulado"){
+				include("inc/simulado.inc.php");
+			}
 
 
 		} else{
@@ -43,4 +61,5 @@
 
 </body>
 </html>
+				
 

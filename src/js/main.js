@@ -31,6 +31,7 @@ ApplicationLoad = {
             }
         });
 
+
         $('.ctn-sld').on({
             mouseenter: function(event) {
                 setScale($(this), 1.2);
@@ -54,6 +55,42 @@ ApplicationLoad = {
     },
     load_plugins: function() {
         console.log("Plugins loaded");
+
+        $('.bar-result').each(function(index, el) {
+            var percent = $(el).attr('percent');
+            $(this).css('height', percent);
+        });
+
+        var ctx1 = $('#grafEstatisticas');
+        var data = {
+
+
+            datasets: [{
+                data: [35, 65],
+
+                backgroundColor: [
+                    'rgb(226, 6, 19)',
+                    'rgb(57, 169, 53)'
+                ]
+            }],
+            labels: [
+                'Pessoas Erraram',
+                'Pessoas Acertaram'
+            ]
+
+        };
+
+        var options = {
+                legend:{
+                    display: false
+                }
+            }
+
+        var grafEstatisticas = new Chart(ctx1, {
+            type: 'pie',
+            data: data,
+            options: options
+        });
 
         $('.maiores-pontuadores').bxSlider({
             mode: 'vertical',
@@ -129,6 +166,18 @@ ApplicationLoad = {
         });
 
         var owl = $('#owl-top-5');
+        var owl_trofeu = $('#owl-trofeu');
+
+        owl_trofeu.owlCarousel({
+            items: 1,
+            itemsDesktop: [1199, 1],
+            itemsDesktopSmall: [979, 1],
+            itemsTablet: [768, 1],
+            pagination: false,
+            loop: true,
+            smartSpeed: 1050,
+            pagination: true
+        });
 
 
 
@@ -141,6 +190,13 @@ ApplicationLoad = {
             loop: true,
             smartSpeed: 1050,
             pagination: true
+        });
+
+        $('.owl-prev').click(function() {
+            owl_trofeu.trigger('next.owl.carousel');
+        });
+        $('.owl-next').click(function() {
+            owl_trofeu.trigger('prev.owl.carousel');
         });
 
         $('.owl-prev').click(function() {
@@ -160,10 +216,26 @@ ApplicationLoad = {
             });
         });
 
+        $('.sub-links').on('click', function(event){
+            var div = $(event.target).attr('href');
+            $('.sub-sections').hide();
+            $(div).show(400);
+        });
+
+        $('.seletor-simulado').on('click', function(event){
+            $('.seletor-simulado').removeClass('current');
+            var div = $(event.target).attr('target');
+            $(event.target).addClass('current');
+            $('.sections-simulado').hide();
+            $(div).show(400);
+        });
+
+
+
 
     }
-
 }
+
 
 $(document).ready(function() {
     ApplicationLoad.init();

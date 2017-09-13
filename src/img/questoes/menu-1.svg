@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<?xml-stylesheet type="text/css" href="src/css/svg.css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="63px" height="81px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3700 4800"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#C6C6C5}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1914657205584">
+   <path class="fil0" d="M2260 0c180,40 310,160 430,280 270,260 530,530 790,800 80,80 160,170 190,280 20,50 30,90 30,140 0,850 0,1700 0,2560 0,420 -330,740 -750,740 -740,10 -1470,10 -2200,0 -420,0 -750,-320 -750,-740 0,-1110 0,-2210 0,-3310 0,-380 260,-680 640,-740 0,0 10,-10 20,-10l1600 0zm-1890 2400c0,540 0,1080 0,1620 0,50 0,90 10,130 50,180 190,290 390,290 720,0 1440,0 2160,-10 60,0 130,-10 190,-30 140,-70 210,-200 210,-360 0,-780 0,-1560 0,-2350 0,-20 -10,-40 -10,-60 0,-50 -30,-90 -80,-110 -50,-20 -110,-40 -170,-40 -210,0 -420,0 -630,0 -150,0 -220,-70 -220,-230 0,-210 0,-410 0,-620 -10,-60 -20,-110 -30,-160 -20,-70 -70,-100 -130,-100 -440,0 -870,0 -1300,0 -90,0 -170,20 -240,80 -110,80 -150,190 -150,320 0,550 0,1090 0,1630z"/>
+   <path class="fil0" d="M1840 930c30,180 -30,370 50,550 -10,0 -30,0 -40,0 -300,0 -600,0 -900,0 -110,0 -190,-50 -200,-140 -10,-90 -10,-190 0,-280 10,-80 80,-130 170,-130 300,-10 610,-10 910,0 10,0 10,0 10,0z"/>
+   <rect class="fil0" x="1480" y="2770" width="1470" height="360"/>
+   <rect class="fil0" x="1480" y="3510" width="1470" height="360"/>
+   <rect class="fil0" x="1480" y="2040" width="1470" height="360"/>
+   <rect class="fil0" x="740" y="2770" width="360" height="370"/>
+   <rect class="fil0" x="740" y="3520" width="360" height="360"/>
+   <rect class="fil0" x="740" y="2040" width="360" height="360"/>
+  </g>
+ </g>
+</svg>

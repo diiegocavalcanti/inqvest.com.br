@@ -53,4 +53,6 @@ $endereco = $_SERVER ['REQUEST_URI'];
 <script type="text/javascript" src="src/slick/slick.js"></script>
 <script type="text/javascript" src="src/jquery.bxslider/jquery.bxslider.js"></script>
 <script src="src/bower_components/jquery.countdown/dist/jquery.countdown.js"></script>
+<script src="src/bower_components/chart.js/dist/Chart.js"></script>
+<script src="src/bower_components/chart.js/dist/Chart.bundle.js"></script>
 <script src="src/js/main.js"></script>
