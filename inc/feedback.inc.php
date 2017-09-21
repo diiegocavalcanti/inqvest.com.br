@@ -56,10 +56,10 @@
 				</div>
 				<div class="progress-bars">
 					<div class="row">
-						<div class="col-xs-1">
+						<div class="col-xs-2 col-sm-1">
 							<h5>0</h5>
 						</div>
-						<div class="col-xs-10">
+						<div class="col-xs-8 col-sm-10">
 							<h4>Média</h4>
 							<div class="progress">
 								<div class="progress-bar vermelha" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
@@ -74,10 +74,10 @@
 				</div>
 				<div class="progress-bars">
 					<div class="row">
-						<div class="col-xs-1">
+						<div class="col-xs-2 col-sm-1">
 							<h5>0</h5>
 						</div>
-						<div class="col-xs-10">
+						<div class="col-xs-8 col-sm-10">
 							<h4>Mediana</h4>
 							<div class="progress">
 								<div class="progress-bar amarela" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
@@ -92,10 +92,10 @@
 				</div>
 				<div class="progress-bars">
 					<div class="row">
-						<div class="col-xs-1">
+						<div class="col-xs-2 col-sm-1">
 							<h5>0</h5>
 						</div>
-						<div class="col-xs-10">
+						<div class="col-xs-8 col-sm-10">
 							<h4>Moda</h4>
 							<div class="progress">
 								<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
@@ -118,8 +118,8 @@
 			<div class="col-xs-12">
 				<h2>Lorem ipsum dolor sit amet!</h2>
 				<h3>Lorem ipsum dolor sit amet lorem ipsum lorem ipsum</h3>
-				<a href="">JOGAR NOVAMENTE</a>
-				<a href="">ESCOLHER OUTRO JOGO</a>
+				<a class="animation" href="">JOGAR NOVAMENTE</a>
+				<a class="animation" href="">ESCOLHER OUTRO JOGO</a>
 			</div>
 		</div>
 	</div>
@@ -129,10 +129,10 @@
 	<div class="header-questoes">
 	<div class="row">
 
-					<div class="col-xs-3">QUESTÃO</div>
-					<div class="col-xs-3">SUA RESPOSTA</div>
-					<div class="col-xs-3">GABARITO</div>
-					<div class="col-xs-3">ASSUNTO</div>
+					<div class="col-xs-3"><h3>QUESTÃO</h3></div>
+					<div class="col-xs-3"><h3>SUA RESPOSTA</h3></div>
+					<div class="col-xs-3"><h3>GABARITO</h3></div>
+					<div class="col-xs-3"><h3>ASSUNTO</h3></div>
 				</div>
 			</div>
 		<div class="row">

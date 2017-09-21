@@ -24,7 +24,6 @@ $endereco = $_SERVER ['REQUEST_URI'];
 <link rel="stylesheet" href="src/css/font/stylesheet.css">
 <link rel="stylesheet" href="build/css/reset.css" media="all">
 <link rel="stylesheet" href="src/carousel/assets/owl.carousel.css" media="all">
-<link rel="stylesheet" href="src/carousel/assets/owl.theme.default.css" media="all">
 <link rel="stylesheet" href="src/slick/slick.css" media="all">
 <link rel="stylesheet" href="src/jquery.bxslider/jquery.bxslider.css" media="all">
 <link rel="stylesheet" href="src/bootstrap/css/bootstrap.css">

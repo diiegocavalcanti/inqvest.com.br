@@ -27,7 +27,7 @@
 					<p>Funcionalidade incluída</p>
 					<p>Funcionalidade incluída</p>
 					<p>Funcionalidade incluída</p>
-					<a href="">ASSINAR</a>
+					<a class="animation" href="">ASSINAR</a>
 				</div>
 			</div>
 			<div class="col-sm-4">
@@ -45,7 +45,7 @@
 					<p>Funcionalidade incluída</p>
 					<p>Funcionalidade incluída</p>
 					<p>Funcionalidade incluída</p>
-					<a href="">ASSINAR</a>
+					<a class="animation" href="">ASSINAR</a>
 				</div>
 			</div>
 			<div class="col-sm-4 bg-cinza">
@@ -63,7 +63,7 @@
 					<p>Funcionalidade incluída</p>
 					<p>Funcionalidade incluída</p>
 					<p>Funcionalidade incluída</p>
-					<a href="">ASSINAR</a>
+					<a class="animation" href="">ASSINAR</a>
 				</div>
 			</div>
 		</div>

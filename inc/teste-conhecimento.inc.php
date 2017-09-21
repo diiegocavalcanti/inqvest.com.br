@@ -17,7 +17,7 @@
 				<h6 class="h6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga pariatur, minima eligendi unde quas recusandae?</h6>
 			</div>
 			<div class="col-sm-4">
-				<div class="container-materia">
+				<div class="container-materia animation">
 					<div class="row">
 						<div class="col-xs-4">
 							<h3>Português</h3>
@@ -77,7 +77,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde explicabo sunt quod nulla ratione similique harum doloribus, quisquam facere labore, natus distinctio fugit officiis, iste earum magni pariatur maiores iusto!</p>
 			</div>
 			<div class="col-xs-12">
-				<a href="">JOGAR</a>
+				<a class="animation" href="">JOGAR</a>
 			</div>
 		</div>
 	</div>

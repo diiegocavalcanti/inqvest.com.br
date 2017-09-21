@@ -38,12 +38,19 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<p class="pull-left">1000 resultados encontrados</p>
-				<form action="" class="pull-right">
+				<form action="" class="pull-right qtde-pagina">
 					<div class="form-group">
-						<p>Qestões por página</p>
-						<select name="" id="" class="form-control">
-							<option value="">1</option>
-						</select>
+						<div class="row">
+							<div class="col-xs-6">
+								<p>Cadernos por página</p>
+							</div>
+							<div class="col-xs-6">
+								<select name="" id="" class="form-control">
+									<option value="">1</option>
+								</select>
+							</div>
+						</div>
+						
 					</div>
 				</form>
 			</div>
@@ -59,7 +66,7 @@
 				<div class="ctn-res-provas">
 					<div class="row">
 						<div class="col-sm-6">
-							<h2>Caderno <?=$i?></h2>
+							<h2>PROVA/ANO/BANCA/DISCIPLINA <?=$i?></h2>
 							<p>10 questões   Criado em 00/00/0000</p>
 						</div>
 						<div class="col-sm-6">
@@ -78,31 +85,46 @@
 									<div class="grafico">
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="20"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="20">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>1º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="80"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="80">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>2º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="20"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="20">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>3º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="99"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="99">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>4º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="2"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="2">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>5º</p>
 										</div>

@@ -2,7 +2,11 @@
 	<?php include("inc/section-letreiro-slide.inc.php"); ?>
 	<section class="section-banner">
 		<div class="container">
-			<img src="src/img/banner.png" alt="" class="img-responsive">
+			<div class="slider-home">
+				<a href="?url="><div class="slider-item" style="background-image: url(src/img/banner.png);"></div></a>
+				<a href="?url=g"><div class="slider-item" style="background-image: url(src/img/banner.png);"></div></a>
+				<a href="?url="><div class="slider-item" style="background-image: url(src/img/banner.png);"></div></a>
+			</div>
 		</div>
 	</section>
 </div>

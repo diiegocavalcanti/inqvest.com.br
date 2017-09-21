@@ -188,19 +188,19 @@
 					</h2>
 				</div>
 				<div class="container-carrocel">
-					<div class="owl-prev animation"></div>
+					<div class="owl-prev animation hidden-xs"></div>
 					<div id="owl-top-5" class="owl-carousel">
 						<div class="item">
 							<div class="container-materia">
 								<div class="row">
-									<div class="col-xs-4">
+									<div class="col-xs-8 col-sm-4">
 										<h3>Português</h3>
 										<h6>Órgão/Banca</h6>
 									</div>
-									<div class="col-xs-3">
+									<div class="col-xs-4 col-sm-3">
 										<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
 									</div>
-									<div class="col-xs-5">
+									<div class="col-xs-12 col-sm-5">
 										<p class="text-rv">Restam x Vagas</p>
 										<p class="text-hora">00:00</p>
 										<a href="" class="button-jogar animation">Jogar</a>
@@ -231,14 +231,14 @@
 						<div class="item">
 							<div class="container-materia">
 								<div class="row">
-									<div class="col-xs-4">
+									<div class="col-xs-8 col-sm-4">
 										<h3>Português</h3>
 										<h6>Órgão/Banca</h6>
 									</div>
-									<div class="col-xs-3">
+									<div class="col-xs-4 col-sm-3">
 										<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
 									</div>
-									<div class="col-xs-5">
+									<div class="col-xs-12 col-sm-5">
 										<p class="text-rv">Restam x Vagas</p>
 										<p class="text-hora">00:00</p>
 										<a href="" class="button-jogar animation">Jogar</a>
@@ -269,14 +269,14 @@
 						<div class="item">
 							<div class="container-materia">
 								<div class="row">
-									<div class="col-xs-4">
+									<div class="col-xs-8 col-sm-4">
 										<h3>Português</h3>
 										<h6>Órgão/Banca</h6>
 									</div>
-									<div class="col-xs-3">
+									<div class="col-xs-4 col-sm-3">
 										<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
 									</div>
-									<div class="col-xs-5">
+									<div class="col-xs-12 col-sm-5">
 										<p class="text-rv">Restam x Vagas</p>
 										<p class="text-hora">00:00</p>
 										<a href="" class="button-jogar animation">Jogar</a>
@@ -307,14 +307,14 @@
 						<div class="item">
 							<div class="container-materia">
 								<div class="row">
-									<div class="col-xs-4">
+									<div class="col-xs-8 col-sm-4">
 										<h3>Português</h3>
 										<h6>Órgão/Banca</h6>
 									</div>
-									<div class="col-xs-3">
+									<div class="col-xs-4 col-sm-3">
 										<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
 									</div>
-									<div class="col-xs-5">
+									<div class="col-xs-12 col-sm-5">
 										<p class="text-rv">Restam x Vagas</p>
 										<p class="text-hora">00:00</p>
 										<a href="" class="button-jogar animation">Jogar</a>
@@ -343,7 +343,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="owl-next animation"></div>
+					<div class="owl-next animation hidden-xs"></div>
 				</div>
 			</div>
 		</div>

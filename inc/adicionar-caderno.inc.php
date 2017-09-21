@@ -11,7 +11,7 @@
 					</div>
 
 					<div class="form-group">
-						<button class="btn" type="submit">SALVAR</button>
+						<button class="btn animation" type="submit">SALVAR</button>
 					</div>
 				</form>
 			</div>
@@ -24,7 +24,7 @@
 					</div>
 
 					<div class="form-group">
-						<button class="btn" type="submit">SALVAR</button>
+						<button class="btn animation" type="submit">SALVAR</button>
 					</div>
 				</form>
 			</div>

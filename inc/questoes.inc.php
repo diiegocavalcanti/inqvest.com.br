@@ -52,12 +52,19 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<p class="pull-left">1000 resultados encontrados</p>
-				<form action="" class="pull-right">
+				<form action="" class="pull-right qtde-pagina">
 					<div class="form-group">
-						<p>Qestões por página</p>
-						<select name="" id="" class="form-control">
-							<option value="">1</option>
-						</select>
+						<div class="row">
+							<div class="col-xs-6">
+								<p>Questões por página</p>
+							</div>
+							<div class="col-xs-6">
+								<select name="" id="" class="form-control">
+									<option value="">1</option>
+								</select>
+							</div>
+						</div>
+						
 					</div>
 				</form>
 			</div>
@@ -73,6 +80,7 @@
 				</div>
 			</div>
 			<div class="col-xs-11">
+				<h5>PROVA/ANO/BANCA/DISCIPLINA 0</h5>
 				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur corporis, eum adipisci voluptas facilis vitae quibusdam, minima perspiciatis provident, recusandae impedit. Obcaecati, nihil, voluptatem ut mollitia culpa cupiditate cum doloribus voluptas voluptates laboriosam. Magni similique suscipit laborum quos aliquam earum.</h3>
 			</div>
 		</div>
@@ -125,7 +133,6 @@
 		</div>
 	</div>
 </section>
-
 <section class="section-submenu-questoes">
 	<div class="container">
 		<div class="row">
@@ -136,36 +143,20 @@
 				<a class="sub-links" href="#evolucao">EVOLUÇÃO</a>
 			</div>
 		</div>
-
-
 	</div>
 </section>
-
-		<div class="sub-sections" id="comentarios">
-			<?php include("inc/comentarios.inc.php"); ?>
-		</div>
-
-		<div class="sub-sections" id="estatisticas">
-			<?php include("inc/estatisticas.inc.php"); ?>
-		</div>
-
-		<div class="sub-sections" id="adicionar-caderno">
-			<?php include("inc/adicionar-caderno.inc.php"); ?>
-		</div>
-
-		<div class="sub-sections" id="evolucao">
-			<?php include("inc/evolucao.inc.php"); ?>
-		</div>
-
-<section class="section-button-collapse">
-	<div class="container">
-		<div class="row">
-			<a href="" class="bt-coll">
-				<img src="src/img/questoes/up.svg" alt="">
-			</a>
-		</div>
-	</div>
-</section>
+<div class="sub-sections" id="comentarios">
+	<?php include("inc/comentarios.inc.php"); ?>
+</div>
+<div class="sub-sections" id="estatisticas">
+	<?php include("inc/estatisticas.inc.php"); ?>
+</div>
+<div class="sub-sections" id="adicionar-caderno">
+	<?php include("inc/adicionar-caderno.inc.php"); ?>
+</div>
+<div class="sub-sections" id="evolucao">
+	<?php include("inc/section-evolucao.inc.php"); ?>
+</div>
 
 <section class="section-pagination">
 	<div class="container">

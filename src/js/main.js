@@ -32,10 +32,10 @@ ApplicationLoad = {
         });
 
 
+
         $('.ctn-sld').on({
             mouseenter: function(event) {
-                setScale($(this), 1.2);
-                console.log($(this));
+                setScale($(this), 1.4);
             },
             mouseleave: function(event) {
                 setScale($(this), 1.0);
@@ -54,43 +54,6 @@ ApplicationLoad = {
 
     },
     load_plugins: function() {
-        console.log("Plugins loaded");
-
-        $('.bar-result').each(function(index, el) {
-            var percent = $(el).attr('percent');
-            $(this).css('height', percent);
-        });
-
-        var ctx1 = $('#grafEstatisticas');
-        var data = {
-
-
-            datasets: [{
-                data: [35, 65],
-
-                backgroundColor: [
-                    'rgb(226, 6, 19)',
-                    'rgb(57, 169, 53)'
-                ]
-            }],
-            labels: [
-                'Pessoas Erraram',
-                'Pessoas Acertaram'
-            ]
-
-        };
-
-        var options = {
-                legend:{
-                    display: false
-                }
-            }
-
-        var grafEstatisticas = new Chart(ctx1, {
-            type: 'pie',
-            data: data,
-            options: options
-        });
 
         $('.maiores-pontuadores').bxSlider({
             mode: 'vertical',
@@ -102,6 +65,16 @@ ApplicationLoad = {
             moveSlides: 1
         });
 
+        $('.slider-home').slick({
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            fade: true,
+            mobileFirst: true,
+            controls: true,
+            speed: 600
+        });
+
         $('.slide-letreiro').slick({
             dots: false,
             infinite: true,
@@ -109,6 +82,8 @@ ApplicationLoad = {
             autoplay: true,
             autoplaySpeed: 0,
             slidesToShow: 10,
+            adaptiveHeight: true,
+            pauseOnHover: true,
             slidesToScroll: 1,
             cssEase: 'linear',
             responsive: [{
@@ -122,13 +97,13 @@ ApplicationLoad = {
                 }, {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 3,
                         slidesToScroll: 2
                     }
                 }, {
                     breakpoint: 480,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1
                     }
                 }
@@ -138,35 +113,20 @@ ApplicationLoad = {
             ]
         });
 
-
-        //OWL-carrocel
-        $("#owl-letreiro").owlCarousel({
-            pagination: false,
-            loop: true,
-            autoplay: true,
-            autoplaySpeed: 1000,
-            autoplayTimeout: 500,
-            autoplayHoverPause: false,
-            navSpeed: 1000,
-            smartSpeed: 1000,
-            responsive: {
-                480: {
-                    items: 2
-                },
-                768: {
-                    items: 4
-                },
-                1024: {
-                    items: 8
-                },
-                1200: {
-                    items: 12
-                }
-            }
-        });
-
         var owl = $('#owl-top-5');
         var owl_trofeu = $('#owl-trofeu');
+        var owl_trofeu_evolucao = $('#owl-trofeu-evolucao');
+
+        owl_trofeu_evolucao.owlCarousel({
+            items: 1,
+            itemsDesktop: [1199, 1],
+            itemsDesktopSmall: [979, 1],
+            itemsTablet: [768, 1],
+            pagination: false,
+            loop: true,
+            smartSpeed: 1050,
+            pagination: true
+        });
 
         owl_trofeu.owlCarousel({
             items: 1,
@@ -194,19 +154,14 @@ ApplicationLoad = {
 
         $('.owl-prev').click(function() {
             owl_trofeu.trigger('next.owl.carousel');
-        });
-        $('.owl-next').click(function() {
-            owl_trofeu.trigger('prev.owl.carousel');
-        });
-
-        $('.owl-prev').click(function() {
+            owl_trofeu_evolucao.trigger('next.owl.carousel');
             owl.trigger('next.owl.carousel');
         });
         $('.owl-next').click(function() {
+            owl_trofeu.trigger('prev.owl.carousel');
+            owl_trofeu_evolucao.trigger('prev.owl.carousel');
             owl.trigger('prev.owl.carousel');
         });
-
-
 
         $('.clock').each(function() {
             var $this = $(this),
@@ -216,13 +171,13 @@ ApplicationLoad = {
             });
         });
 
-        $('.sub-links').on('click', function(event){
+        $('.sub-links').on('click', function(event) {
             var div = $(event.target).attr('href');
             $('.sub-sections').hide();
             $(div).show(400);
         });
 
-        $('.seletor-simulado').on('click', function(event){
+        $('.seletor-simulado').on('click', function(event) {
             $('.seletor-simulado').removeClass('current');
             var div = $(event.target).attr('target');
             $(event.target).addClass('current');
@@ -230,6 +185,26 @@ ApplicationLoad = {
             $(div).show(400);
         });
 
+        $('.bar-result').each(function(index, el) {
+            var percent = $(el).attr('percent');
+            $(this).css('height', percent);
+        });
+
+        $('.bt-alterar-senha').on('click', function(event) {
+            event.preventDefault();
+            console.log('ui');
+            $('.campo-senha').attr('readonly', false);
+        });
+
+        $('.pre-determinado').on('change',  function(event) {
+            event.preventDefault();
+            $('#duracao').attr('readonly', false);
+        });
+
+        $('.livre').on('change',  function(event) {
+            event.preventDefault();
+            $('#duracao').attr('readonly', true);
+        });
 
 
 

@@ -38,12 +38,19 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<p class="pull-left">1000 resultados encontrados</p>
-				<form action="" class="pull-right">
+				<form action="" class="pull-right qtde-pagina">
 					<div class="form-group">
-						<p>Qestões por página</p>
-						<select name="" id="" class="form-control">
-							<option value="">1</option>
-						</select>
+						<div class="row">
+							<div class="col-xs-6">
+								<p>Simulados por página</p>
+							</div>
+							<div class="col-xs-6">
+								<select name="" id="" class="form-control">
+									<option value="">1</option>
+								</select>
+							</div>
+						</div>
+						
 					</div>
 				</form>
 			</div>
@@ -90,31 +97,46 @@
 									<div class="grafico">
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="20"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="20">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>1º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="80"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="80">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>2º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="20"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="20">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>3º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="99"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="99">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>4º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="2"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="2">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>5º</p>
 										</div>
@@ -192,24 +214,31 @@
 								</select>
 							</div>
 						</div>
-						<div class="col-sm-3">
+						<div class="col-sm-2">
 							<div class="form-group">
 								<div class="radio">
 								  <label>
-								    <input type="radio" name="tempo" id="tempo" value="tempo">
+								    <input type="radio" name="tempo" id="tempo" class="livre" value="tempo">
 								    TEMPO LIVRE
 								  </label>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-3">
+						<div class="col-sm-2">
 							<div class="form-group">
 								<div class="radio">
 								  <label>
-								    <input type="radio" name="tempo" id="tempo" value="tempo">
+								    <input type="radio" name="tempo" id="tempo" class="pre-determinado" value="tempo">
 								    TEMPO PRÉ-DETERMINADO
 								  </label>
 								</div>
+							</div>
+						</div>
+						<div class="col-sm-2">
+							<div class="form-group">
+								<select name="assunto" id="duracao" class="form-control" readonly>
+									<option value="">DURAÇÃO</option>
+								</select>
 							</div>
 						</div>
 						<div class="col-sm-12">

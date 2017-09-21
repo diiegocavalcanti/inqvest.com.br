@@ -4,7 +4,7 @@
 			<div class="col-xs-12">
 				<h2>
 				<img src="src/img/ico-section.svg" alt="">
-				Arenas
+				Duelos
 				</h2>
 			</div>
 		</div>

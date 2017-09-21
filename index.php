@@ -49,6 +49,9 @@
 			if($_GET["url"] == "simulado"){
 				include("inc/simulado.inc.php");
 			}
+			if($_GET["url"] == "evolucao"){
+				include("inc/evolucao.inc.php");
+			}
 
 
 		} else{

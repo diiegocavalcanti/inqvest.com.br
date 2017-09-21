@@ -5,7 +5,7 @@
 				<div class="box-estatisticas">
 					<div class="row">
 						<div class="col-sm-3 col-sm-offset-3">
-							<canvas id="grafEstatisticas" width="400" height="400"></canvas>
+							<canvas id="grafico-estatistica"></canvas>
 						</div>
 						<div class="col-sm-6">
 							<div class="feedback-box pdt-fb">
@@ -21,3 +21,5 @@
 		</div>
 	</div>
 </section>
+
+<script src="src/js/charts-load-estatisticas.js"></script>
