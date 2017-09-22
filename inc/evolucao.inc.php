@@ -77,7 +77,7 @@
 					<h2>SALDO</h2>
 				</div>
 				<div class="sn-ctn">
-					<h3>$100</h3>
+					<h3>$100 <span><img src="src/img/coin.png" class="img-responsive" alt=""></span></h3>
 				</div>
 			</div>
 		</div>

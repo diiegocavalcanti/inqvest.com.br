@@ -55,6 +55,20 @@ ApplicationLoad = {
     },
     load_plugins: function() {
 
+        var login = false;
+
+        $('.open-login').on('click', function(){
+
+            if(login == false){
+                $('.box-login').fadeIn(200);
+                login = true;
+            }else{
+                 $('.box-login').fadeOut(200);
+                 login = false;
+            }
+
+        });
+
         $('.maiores-pontuadores').bxSlider({
             mode: 'vertical',
             minSlides: 6,

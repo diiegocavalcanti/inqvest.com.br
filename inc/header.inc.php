@@ -14,17 +14,43 @@
 			</div>
 			<div id="navbar" class="navbar-collapse collapse menu-bar">
 				<ul class="nav navbar-nav menu">
-					<li><a href="?url=jogos">Jogos</a></li>
-					<li><a href="?url=forum">Fórum</a></li>
+					<li><a href="?url=desafios">Desafios</a></li>
+					<li><a href="?url=duelos">Duelos</a></li>
 					<li><a href="?url=noticias">Notícias</a></li>
 					<li><a href="?url=comofunciona">Como funciona</a></li>
-					<li><a href="?url=quemsomos">Quem Somos</a></li>
 					<li><a href="?url=contato">Fale Conosco</a></li>
 				</ul>
-
 				<div class="login pull-right">
-					<h6>Faça seu login</h6>
+					<a class="open-login">
+						<h6>Faça seu login</h6>
 					<p>ou cadastre-se <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></p>
+					</a>
+					<div id="box-login" class="box-login">
+						<form action="">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="form-group">
+										<input type="text" class="form-control" name="login" placeholder="Login">
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control" name="senha" placeholder="Senha">
+									</div>
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="form-group">
+												<button type="submit">Login</button>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="form-group">
+												<a href="">Cadastre-se</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</nav>

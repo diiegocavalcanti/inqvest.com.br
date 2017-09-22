@@ -52,6 +52,9 @@
 			if($_GET["url"] == "evolucao"){
 				include("inc/evolucao.inc.php");
 			}
+			if($_GET["url"] == "contato"){
+				include("inc/contato.inc.php");
+			}
 
 
 		} else{
@@ -64,5 +67,5 @@
 
 </body>
 </html>
-				
+
 

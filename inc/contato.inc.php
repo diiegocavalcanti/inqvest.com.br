@@ -1,19 +1,14 @@
-
-<div id="mapa"></div>
+<?php include("inc/section-letreiro-slide.inc.php"); ?>
 <section class="section-contato">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<h2>ENVIE UMA MENSAGEM</h2>
-			</div>
-		</div>
+
 		<div class="row" >
 				<form id="form-contato" method="POST">
 					<div class="col-xs-12">
 						<div id="container-mensagem"></div>
 					</div>
 					<div class="col-md-offset-1 col-md-5 col-sm-12 col-xs-12">
-						
+
 						<div class="form-group">
 							<label for="nome">NOME:</label>
 							<input type="text" class="form-control" name="nome" id="nome" placeholder="Nome:">
