@@ -18,6 +18,53 @@ body, html{
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
 }
+.box-login-modal{
+  background-color: #FFF;
+  padding: 20px;
+}
+.box-login-modal button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #FFF;
+  background-color: red;
+  font-size: 14px;
+  text-decoration: none;
+  border: none;
+  border-radius: 15px;
+
+}
+.box-login-modal a.cadastre{
+  font-size: 12px;
+  color: #11374F;
+}
+.box-login-modal a{
+  font-size: 12px;
+}
+
+.modal-header{
+  background-color:#09202C !important;
+  color: #FFF;
+  text-align: center;
+}
+.modal-header h4{
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
 .box-login{
   display: none;
   float: left;
@@ -44,9 +91,12 @@ body, html{
   border-radius: 15px;
 
 }
-.box-login a{
+.box-login a.cadastre{
   font-size: 12px;
   color: #11374F;
+}
+.box-login a{
+  font-size: 12px;
 }
 header{
   width: 100%;
@@ -1465,6 +1515,15 @@ footer .social-icons img{
   font-weight: bold;
   border-radius: 30px;
   width: 100%;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+}
+.section-busca button:hover{
+  background-color: #09202C;
+  color: #FFF;
 }
 .section-questao{
   padding-bottom: 30px;
@@ -1692,10 +1751,34 @@ footer .social-icons img{
 .section-res-provas a.comecar{
   background-color: #081F2B;
   color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+.section-res-provas a.comecar:hover{
+  background-color: #fff;
+  color: #081F2B;
 }
 .section-res-provas a.historico{
   background-color: #A2C4DF;
   color: #081F2B;
+  text-decoration: none;
+  cursor: pointer;
+}
+.section-res-provas a.apagar{
+  background-color: red;
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+.section-res-provas a.apagar:hover{
+  background-color: grey;
+  color: red
+  text-decoration: none;
+  cursor: pointer;
+}
+.section-res-provas a.historico:hover{
+  color: #A2C4DF;
+  background-color: #081F2B;
 }
 .section-res-provas .ctn-res-provas{
   border-bottom: 1px solid #081F2B;
@@ -1801,24 +1884,46 @@ footer .social-icons img{
 .section-res-simulado a{
   text-align: right;
   display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 12px;
   padding-bottom: 12px;
   text-transform: uppercase;
   float: right;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-bottom: 5px;
   margin-top: 5px;
+  text-decoration: none;
 }
 .section-res-simulado a.comecar{
   background-color: #081F2B;
   color: #FFF;
 }
+.section-res-simulado a.comecar:hover{
+  color: #081F2B;
+  background-color: #FFF;
+}
+.section-res-simulado a.apagar{
+  background-color: red;
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+.section-res-simulado a.apagar:hover{
+  background-color: grey;
+  color: red
+  text-decoration: none;
+  cursor: pointer;
+}
 .section-res-simulado a.historico{
   background-color: #A2C4DF;
   color: #081F2B;
+}
+.section-res-simulado a.historico:hover{
+  color: #A2C4DF;
+  background-color: #081F2B;
 }
 .section-res-simulado .ctn-res-provas{
   border-bottom: 1px solid #081F2B;
@@ -1903,6 +2008,10 @@ font-weight: bold;
   background-color: #081F2B;
   color: #FFF;
   border-radius: 25px;
+}
+#section-criar-simulado button:hover{
+  background-color: #FFF;
+  color: #081F2B;
 }
 .section-numeros{
   padding-top: 60px;
@@ -2144,4 +2253,63 @@ font-weight: bold;
 .section-contato{
   padding-top: 60px;
   padding-bottom: 60px;
+}
+#load{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #FFFFFF;
+  z-index: 9999;
+
+}
+#spin{
+  width: 80px;
+  height: 77px;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  background-size: cover;
+  position: absolute;
+  background-image: url(../img/49E24F9A.png);
+  background-size: 100%;
+  -webkit-transition: 500ms;
+  -webkit-animation-name: roda;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(.24,1.05,.72,.53);
+}
+@keyframes roda{
+
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+  transform: rotate(360deg);
+  }
+
+}
+@-webkit-keyframes roda{
+
+  from{
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+  }
+
+}
+
+.mensagem-form {
+  display: none;
+}
+
+.mensagem-form h6{
+  color: red;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }

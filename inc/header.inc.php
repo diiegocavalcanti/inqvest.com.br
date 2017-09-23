@@ -16,6 +16,7 @@
 				<ul class="nav navbar-nav menu">
 					<li><a href="?url=desafios">Desafios</a></li>
 					<li><a href="?url=duelos">Duelos</a></li>
+					<li><a href="?url=planos">Planos</a></li>
 					<li><a href="?url=noticias">Notícias</a></li>
 					<li><a href="?url=comofunciona">Como funciona</a></li>
 					<li><a href="?url=contato">Fale Conosco</a></li>
@@ -23,17 +24,20 @@
 				<div class="login pull-right">
 					<a class="open-login">
 						<h6>Faça seu login</h6>
-					<p>ou cadastre-se <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></p>
+						<p>ou cadastre-se <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></p>
 					</a>
 					<div id="box-login" class="box-login">
-						<form action="">
+						<form action="" id="form-login">
 							<div class="row">
 								<div class="col-xs-12">
-									<div class="form-group">
-										<input type="text" class="form-control" name="login" placeholder="Login">
+									<div class="mensagem-form">
+
 									</div>
 									<div class="form-group">
-										<input type="password" class="form-control" name="senha" placeholder="Senha">
+										<input type="text" class="form-control" id="email" name="email" placeholder="E-mail">
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
 									</div>
 									<div class="row">
 										<div class="col-sm-6">
@@ -43,8 +47,21 @@
 										</div>
 										<div class="col-sm-6">
 											<div class="form-group">
-												<a href="">Cadastre-se</a>
+												<a class="cadastre" href="?url=cadastro">Cadastre-se</a>
 											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-12">
+											<a class="btn btn-block btn-social btn-facebook">
+												<span class="fa fa-facebook"></span>
+												Entre com o Facebook
+											</a>
+
+											<a class="btn btn-block btn-social btn-google">
+												<span class="fa fa-google"></span>
+												Entre com o Google
+											</a>
 										</div>
 									</div>
 								</div>

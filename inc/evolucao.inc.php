@@ -37,8 +37,8 @@
 				</div>
 			</div>
 			<div class="col-sm-2">
-				<div class="sn-titulo">
-					<h2>JOGOS</h2>
+				<div class="sn-titulo openModal" data-url="inc/termos.inc.php" data-title="DESAFIOS">
+					<h2>DESAFIOS</h2>
 				</div>
 				<div class="sn-ctn">
 					<h3>10</h3>

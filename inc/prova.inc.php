@@ -59,13 +59,13 @@
 				<div class="ctn-res-provas">
 					<div class="row">
 						<div class="col-sm-6">
-							<h2>Caderno <?=$i?></h2>
+							<h2>PROVA/ANO/BANCA/DISCIPLINA <?=$i?></h2>
 							<p>10 questões   Criado em 00/00/0000</p>
 						</div>
 						<div class="col-sm-6">
-							<a role="button" data-toggle="collapse" href="#collapse-caderno-<?=$i?>" aria-expanded="false" aria-controls="collapse-caderno-<?=$i?>" class="historico">HISTÓRICO</a>
-							<a href="" class="comecar">COMEÇAR</a>
-							
+							<a role="button" data-toggle="collapse" href="#collapse-caderno-<?=$i?>" aria-expanded="false" aria-controls="collapse-caderno-<?=$i?>" class="historico animation">HISTÓRICO</a>
+							<a href="" class="comecar animation">COMEÇAR</a>
+
 						</div>
 					</div>
 					<div class="row">
@@ -118,7 +118,7 @@
 
 									<p>5 Últimos Resultados</p>
 								</div>
-								
+
 							</div>
 
 							<div class="row">
@@ -133,7 +133,7 @@
 			</div>
 
 			<?php } ?>
-			
+
 		</div>
 	</div>
 </section>

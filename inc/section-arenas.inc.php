@@ -27,7 +27,7 @@
 								<p class="text-rv">Restam x Vagas</p>
 								<p class="text-hora clock" data-countdown="2017/10/02">00:00</p>
 							</div>
-							<div class="col-xs-4"><a href="" class="button-entrar animation">Entrar</a></div>
+							<div class="col-xs-4"><a class="button-entrar animation openModal" data-url="inc/box-login.inc.php" data-title="Login">Entrar</a></div>
 						</div>
 					</div>
 				</div>
@@ -50,7 +50,7 @@
 								<p class="text-rv">Restam x Vagas</p>
 								<p class="text-hora clock" data-countdown="2017/10/02">00:00</p>
 							</div>
-							<div class="col-xs-4"><a href="" class="button-entrar animation">Entrar</a></div>
+							<div class="col-xs-4"><a class="button-entrar animation openModal" data-url="inc/box-login.inc.php" data-title="Login">Entrar</a></div>
 						</div>
 					</div>
 				</div>
@@ -73,7 +73,7 @@
 								<p class="text-rv">Restam x Vagas</p>
 								<p class="text-hora clock" data-countdown="2017/10/02">00:00</p>
 							</div>
-							<div class="col-xs-4"><a href="" class="button-entrar animation">Entrar</a></div>
+							<div class="col-xs-4"><a class="button-entrar animation openModal" data-url="inc/box-login.inc.php" data-title="Login">Entrar</a></div>
 						</div>
 					</div>
 				</div>

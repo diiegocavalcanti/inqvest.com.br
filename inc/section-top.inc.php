@@ -6,7 +6,7 @@
 					<img src="src/img/ico-maiores.svg" width="8%" class="img-responsive">
 					<h2>
 					Maiores Pontuadores <br>
-					<span>Por Disciplina</span>
+					<span>Por Desafio</span>
 					</h2>
 				</div>
 				<div class="row">
@@ -24,7 +24,7 @@
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">Desafiar</a>
+											<a href="">100 pts</a>
 										</div>
 									</div>
 								</div>
@@ -40,7 +40,7 @@
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">Desafiar</a>
+											<a href="">100 pts</a>
 										</div>
 									</div>
 								</div>
@@ -56,7 +56,7 @@
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">Desafiar</a>
+											<a href="">100 pts</a>
 										</div>
 									</div>
 								</div>
@@ -72,7 +72,7 @@
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">Desafiar</a>
+											<a href="">100 pts</a>
 										</div>
 									</div>
 								</div>
@@ -88,7 +88,7 @@
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">Desafiar</a>
+											<a href="">100 pts</a>
 										</div>
 									</div>
 								</div>
@@ -104,7 +104,7 @@
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">Desafiar</a>
+											<a href="">100 pts</a>
 										</div>
 									</div>
 								</div>
@@ -120,7 +120,7 @@
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">Desafiar</a>
+											<a href="">100 pts</a>
 										</div>
 									</div>
 								</div>
@@ -136,7 +136,7 @@
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">Desafiar</a>
+											<a href="">100 pts</a>
 										</div>
 									</div>
 								</div>
@@ -152,7 +152,7 @@
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">Desafiar</a>
+											<a href="">100 pts</a>
 										</div>
 									</div>
 								</div>
@@ -168,7 +168,7 @@
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">Desafiar</a>
+											<a href="">100 pts</a>
 										</div>
 									</div>
 								</div>
