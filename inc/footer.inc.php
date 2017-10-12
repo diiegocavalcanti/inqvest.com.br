@@ -2,10 +2,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-2">
-				<img src="src/img/logo-footer.svg" alt="" class="img-responsive">
+				<img src="src/img/logo-footer.png" alt="" class="img-responsive">
 			</div>
 			<div class="col-sm-5">
-				<p>©2017 Enem+. Todos os direitos reservados.</p>
+				<p>©2017 Inqvest. Todos os direitos reservados.</p>
 			</div>
 			<div class="col-sm-5">
 				<div class="social-icons">
