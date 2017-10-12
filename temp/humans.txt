@@ -1,0 +1,32 @@
+/* TEAM */
+
+  Web Designer: Diego Cavalcanti
+  Contact: diego@agenciamoob.com.br
+  Twitter: @agenciamoob
+  From: Brazil, Pernambuco, Recife
+
+  Front-End Engineer: Diego Cavalcanti
+  Contact: diego@agenciamoob.com.br
+  Twitter: @agenciamoob
+  From: Brazil, Pernambuco, Recife
+
+  Back-End Engineer: Diego Cavalcanti
+  Contact: diego@agenciamoob.com.br
+  Twitter: @agenciamoob
+  From: Brazil, Pernambuco, Recife
+
+
+/* THANKS */
+
+  (First) Moob Agência Criativa
+  Contact: http://www.agenciamoob.com.br/
+  From: Brazil, Pernambuco, Recife
+
+
+/* SITE */
+
+  Last update: 2014/01/15
+  Doctype: HTML5
+  IDE: Sublime Text 2, FileZilla, Photoshop, Chrome Developer Tools
+  Standards: HTML5, CSS3, SASS
+  Components: jQuery

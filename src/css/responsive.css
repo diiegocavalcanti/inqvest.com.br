@@ -1,0 +1,131 @@
+@media (min-width: 1200px){
+}
+
+@media (min-width: 980px) and (max-width: 1199px){
+		.section-banner{
+		margin-top: -80px !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+	.menu li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.menu li a{
+	font-size: 14px;
+}
+.login{
+	float: none !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+
+@media (max-width: 767px){
+	.bt-menu .icon-bar{
+		background-color: #071F2B;
+	}
+	.bt-menu{
+		margin-top: 20px;
+	}
+	.menu{
+		text-align: center;
+	}
+	.login{
+		margin-left: auto;
+		margin-right: auto;
+		float: none !important;
+		display: block;
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+	}
+	.section-desafio{
+		text-align: center;
+	}
+	footer{
+		text-align: center;
+	}
+	footer img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer .social-icons{
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.section-banner{
+		margin-top: 0px !important;
+	}
+	.slider-home .slider-item {
+		height: 165px;
+	}
+	#owl-top-5{
+		width: 100%;
+	}
+	.section-titulos img{
+		width: auto !important;
+	}
+	.section-planos .ctn-plano{
+		padding-bottom: 100px;
+	}
+	.section-titulos{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.section-menu .box-menu{
+		margin-bottom: 20px;
+	}
+	.section-resultados{
+		text-align: center;
+	}
+	.section-submenu-questoes a{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.section-comentarios .comment-box h6{
+		padding: 0px;
+		float: none !important;
+	}
+	.ctn-res-provas{
+		text-align: center;
+	}
+	.section-res-provas p{
+		margin-bottom: 10px;
+	}
+	.section-res-provas .ctn-res-provas h4{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.section-feedback h6{
+		font-size: 16px;
+	}
+	.section-feedback h6 img{
+		width: 7px;
+	}
+	.section-feedback .progress-bars h5{
+		font-size: 10px;
+	}
+	.section-questoes .header-questoes h3{
+		font-size: 12px;
+	}
+	.section-questoes .panel-heading p, .section-questoes .panel-heading h6{
+		font-size: 12px;
+	}
+	.section-graficos{
+		padding-top: 0px;
+	}
+	.box-login{
+		position: relative;
+		width: 100%;
+		-webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+	}
+}
+
+@media (max-width: 360px){
+}
